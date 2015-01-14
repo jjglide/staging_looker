@@ -7,7 +7,10 @@
     type: time
     timeframes: [time, date, week, month]
     sql: ${TABLE}.createdat
-
+  - dimension_group: fwcreatedat
+    type: time
+    timeframes: [time, date, week, month]
+    sql: ${TABLE}.fwcreatedat 
   - dimension: durationms
     type: int
     sql: ${TABLE}.durationms

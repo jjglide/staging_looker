@@ -1,3 +1,4 @@
+- explore: live_messagedetail
 - view: live_messagedetail
   sql_table_name: public.live_messagedetail
   fields:

@@ -18,6 +18,7 @@
     sql: ${TABLE}.gender
 
   - dimension: glideid
+    primary_key:  true
     sql: ${TABLE}.glideid
 
   - dimension_group: hotupdatedat

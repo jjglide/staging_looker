@@ -1,4 +1,7 @@
 - explore: client_events
+  joins:
+      - join: live_user
+        foreign_key:  glideid
 - view: client_events
   sql_table_name: public.client_events
   fields:

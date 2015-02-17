@@ -1,4 +1,4 @@
-- connection: dev
+- connection: staging
 
 - scoping: true                  # for backward compatibility
 - include: "*.view.lookml"       # include all the views
